@@ -4,7 +4,7 @@ const { getActivitiesByWeek, getUniqueWeeks, getTopActivitiesByWeek } = require(
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3011;
+const PORT = process.env.PORT || 3012;
 
 app.use(cors());
 app.use(express.static('public'));
